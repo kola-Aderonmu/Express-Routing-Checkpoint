@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgba(212, 219, 219, 0.523);
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.img {
+  width: 40px;
+  margin-left: 20px;
+}
+
+.nav-title {
+  /* background-color: red; */
+  margin-left: 72%;
+  display: flex;
+  gap: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: aqua;
+}
+
+p {
+  color: #666;
+  font-family: cursive;
+}
+p a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  min-height: 90vh;
+}
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+}
+.cta-button:hover {
+  background-color: cyan;
+}
+
+.services {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.h1serv {
+  text-align: center;
+}
+
+.servicebx {
+  border: 1px solid rgb(251, 192, 192);
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+.servicebx:hover {
+  background: white;
+  cursor: pointer;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: rgb(183, 228, 228);
+  box-sizing: border-box;
+}
+button {
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
